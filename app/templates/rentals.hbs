@@ -1,0 +1,14 @@
+<div class="jumbo">
+    <div class="right tomster"></div>
+    <h1>Welcome</h1>
+    <p>Find yoself, a place to rent.</p>
+
+    {{#link-to "about" class="button"}}
+    About Us
+    {{/link-to}}
+</div>
+
+{{#each model as |rental-unit|}}
+    {{rental-listing rental=rental-unit}}
+{{/each}}
+{{outlet}}
