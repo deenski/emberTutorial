@@ -12,7 +12,7 @@ export default function() {
           city: 'San Fransisco',
           category: 'Estate',
           bedrooms: 15,
-          image: "https://source.unsplash.com/400x600/?mansion",
+          image: "https://source.unsplash.com/1080x1920/?mansion",
           description: 'A mucho grande olde mansion.'
         }
       }, {
@@ -24,7 +24,7 @@ export default function() {
           city: 'Seattle',
           category: 'Condo',
           bedrooms: 1,
-          image: 'https://source.unsplash.com/400x600/?condo',
+          image: 'https://source.unsplash.com/1080x1920/?condo',
           description: 'A charming one bedroom condo in the heart of Seattle, bring a raincoat!'
         }
       }, {
@@ -36,7 +36,7 @@ export default function() {
           city: 'Devner',
           category: 'Apartment',
           bedrooms: 3,
-          image: 'https://source.unsplash.com/400x600/?apartment',
+          image: 'https://source.unsplash.com/1080x1920/?apartment',
           description: 'All the conveniences of downtown, including zero parking spots within 7 miles!'
         }
       }]
