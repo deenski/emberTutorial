@@ -5,7 +5,7 @@ export default function() {
       type: 'rentals',
       id: 'grand-old-mansion',
       attributes: {
-      title: 'Grade Olde Mansion',
+      title: 'Grand Old Mansion',
       owner: 'Varuca Salt', 
       city: 'San Fransisco',
       category: 'Estate',
@@ -48,5 +48,10 @@ export default function() {
     } else {
       return { data: rentals };
     }
+  });
+
+  // Find and return the provided rental from our rental list above
+  this.get('/rentals/:id', function (db, request) {
+    return { data: rentals.find((rental) => request.params.id === rental.id) };
   });
 }
