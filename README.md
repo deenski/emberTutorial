@@ -1,7 +1,8 @@
 # super-rentals
 
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+
+I followed along with the ember tutorial to the end. The code in this project is the result of that effort. - <3 Jake
 
 ## Prerequisites
 
@@ -14,7 +15,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/deenski/emberTutorial` this repository
 * `cd super-rentals`
 * `npm install`
 
